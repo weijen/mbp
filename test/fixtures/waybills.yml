@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  sender_address: MyString
+  sender_name: MyString
+  customer_name: MyString
+  customer_address: MyString
+  price: 1
+
+two:
+  sender_address: MyString
+  sender_name: MyString
+  customer_name: MyString
+  customer_address: MyString
+  price: 1

@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Sender address:</b>
+  <%= @waybill.sender_address %>
+</p>
+
+<p>
+  <b>Sender name:</b>
+  <%= @waybill.sender_name %>
+</p>
+
+<p>
+  <b>Customer name:</b>
+  <%= @waybill.customer_name %>
+</p>
+
+<p>
+  <b>Customer address:</b>
+  <%= @waybill.customer_address %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @waybill.price %>
+</p>
+
+
+<%= link_to 'Edit', edit_waybill_path(@waybill) %> |
+<%= link_to 'Back', waybills_path %>
